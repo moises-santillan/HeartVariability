@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex manuscript"] 1670602033 "manuscript.aux" "manuscript.bbl" "manuscript" 1670602038
+["bibtex manuscript"] 1670603558 "manuscript.aux" "manuscript.bbl" "manuscript" 1670603563
   "/usr/share/texlive/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "manuscript.aux" 1670602037 929 7dd218e36a3ec4efe3cdc53fa7ca337f "pdflatex"
-  "manuscriptNotes.bib" 1670602037 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
+  "manuscript.aux" 1670603562 1079 b1dafa1d8d76780d3220d75c620739b2 "pdflatex"
+  "manuscriptNotes.bib" 1670603562 104 4d8bb863c86f3d7b03a471e9d4707f34 "pdflatex"
   (generated)
-  "manuscript.bbl"
   "manuscript.blg"
-["pdflatex"] 1670602033 "manuscript.tex" "manuscript.pdf" "manuscript" 1670602038
+  "manuscript.bbl"
+["pdflatex"] 1670603558 "manuscript.tex" "manuscript.pdf" "manuscript" 1670603563
   "/etc/texmf/web2c/texmf.cnf" 1658147791 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -85,11 +85,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1613593815 38841 799d1dd9682a55ce442e10c99777ecc1 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1658147865 5160710 ecf427ae8fa19139d8691f526e47bb9b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1658147898 2569085 2c300e8a55a9566b04f2d4cb1e3e91d8 ""
-  "manuscript.aux" 1670602037 929 7dd218e36a3ec4efe3cdc53fa7ca337f "pdflatex"
-  "manuscript.bbl" 1670602033 1982 35453d3875d823f0ec9445e740a573d9 "bibtex manuscript"
-  "manuscript.tex" 1670602025 2927 d4d7e390c4ae429820ebdc24c88fb692 ""
+  "manuscript.aux" 1670603562 1079 b1dafa1d8d76780d3220d75c620739b2 "pdflatex"
+  "manuscript.bbl" 1670603558 1982 35453d3875d823f0ec9445e740a573d9 "bibtex manuscript"
+  "manuscript.tex" 1670603551 3060 b314efecf83ce20ddcca1b66e87a6c6c ""
+  "model.pdf" 1670599905 38092 6315ba48e9ebdad3ff01da082e19fe32 ""
   (generated)
-  "manuscriptNotes.bib"
-  "manuscript.pdf"
-  "manuscript.aux"
   "manuscript.log"
+  "manuscript.pdf"
+  "manuscriptNotes.bib"
+  "manuscript.aux"
