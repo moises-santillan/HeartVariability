@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{0}%
+\begin{thebibliography}{8}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,4 +50,109 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
+\bibitem [{\citenamefont {MARWAN}\ \emph {et~al.}(2007)\citenamefont {MARWAN},
+  \citenamefont {CARMENROMANO}, \citenamefont {THIEL},\ and\ \citenamefont
+  {KURTHS}}]{Marwan_2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {MARWAN}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {CARMENROMANO}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {THIEL}},\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {KURTHS}},\ }\bibfield  {title} {\bibinfo {title} {Recurrence plots for the
+  analysis of complex systems},\ }\href
+  {https://doi.org/10.1016/j.physrep.2006.11.001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physics Reports}\ }\textbf {\bibinfo {volume} {438}},\
+  \bibinfo {pages} {237} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Marwan}\ \emph {et~al.}(2002)\citenamefont {Marwan},
+  \citenamefont {Wessel}, \citenamefont {Meyerfeldt}, \citenamefont
+  {Schirdewan},\ and\ \citenamefont {Kurths}}]{Marwan_2002}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Marwan}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Wessel}},
+  \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont {Meyerfeldt}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Schirdewan}},\ and\ \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Kurths}},\ }\bibfield  {title}
+  {\bibinfo {title} {Recurrence-plot-based measures of complexity and their
+  application to heart-rate-variability data},\ }\bibfield  {journal} {\bibinfo
+   {journal} {Physical Review E}\ }\textbf {\bibinfo {volume} {66}},\ \href
+  {https://doi.org/10.1103/physreve.66.026702} {10.1103/physreve.66.026702}
+  (\bibinfo {year} {2002})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Aubert}\ \emph {et~al.}(2003)\citenamefont {Aubert},
+  \citenamefont {Seps},\ and\ \citenamefont {Beckers}}]{Aubert_2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont
+  {Aubert}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Seps}},\ and\
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Beckers}},\ }\bibfield
+  {title} {\bibinfo {title} {Heart rate variability in athletes},\ }\href
+  {https://doi.org/10.2165/00007256-200333120-00003} {\bibfield  {journal}
+  {\bibinfo  {journal} {Sports Medicine}\ }\textbf {\bibinfo {volume} {33}},\
+  \bibinfo {pages} {889} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Giuliani}\ \emph {et~al.}(1998)\citenamefont
+  {Giuliani}, \citenamefont {Piccirillo}, \citenamefont {Marigliano},\ and\
+  \citenamefont {Colosimo}}]{Giuliani_1998}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Giuliani}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Piccirillo}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Marigliano}},\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Colosimo}},\ }\bibfield  {title} {\bibinfo {title} {A nonlinear explanation
+  of aging-induced changes in heartbeat dynamics},\ }\href
+  {https://doi.org/10.1152/ajpheart.1998.275.4.h1455} {\bibfield  {journal}
+  {\bibinfo  {journal} {American Journal of Physiology-Heart and Circulatory
+  Physiology}\ }\textbf {\bibinfo {volume} {275}},\ \bibinfo {pages} {H1455}
+  (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Acharya}\ \emph {et~al.}(2006)\citenamefont
+  {Acharya}, \citenamefont {Joseph}, \citenamefont {Kannathal}, \citenamefont
+  {Lim},\ and\ \citenamefont {Suri}}]{Rajendra_Acharya_2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.~R.}\ \bibnamefont
+  {Acharya}}, \bibinfo {author} {\bibfnamefont {K.~P.}\ \bibnamefont {Joseph}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Kannathal}}, \bibinfo
+  {author} {\bibfnamefont {C.~M.}\ \bibnamefont {Lim}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.~S.}\ \bibnamefont {Suri}},\ }\bibfield  {title} {\bibinfo
+  {title} {Heart rate variability: a review},\ }\href
+  {https://doi.org/10.1007/s11517-006-0119-0} {\bibfield  {journal} {\bibinfo
+  {journal} {Medical \& Biological Engineering \& Computing}\ }\textbf
+  {\bibinfo {volume} {44}},\ \bibinfo {pages} {1031} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Webber}\ and\ \citenamefont
+  {Zbilut}(1994)}]{Webber_1994}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {Webber}}\ and\ \bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {Zbilut}},\ }\bibfield  {title} {\bibinfo {title} {Dynamical assessment of
+  physiological systems and states using recurrence plot strategies},\ }\href
+  {https://doi.org/10.1152/jappl.1994.76.2.965} {\bibfield  {journal} {\bibinfo
+   {journal} {Journal of Applied Physiology}\ }\textbf {\bibinfo {volume}
+  {76}},\ \bibinfo {pages} {965} (\bibinfo {year} {1994})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Henriques}\ \emph {et~al.}(2020)\citenamefont
+  {Henriques}, \citenamefont {Ribeiro}, \citenamefont {Teixeira}, \citenamefont
+  {Castro}, \citenamefont {Antunes},\ and\ \citenamefont
+  {Costa-Santos}}]{Henriques_2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Henriques}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ribeiro}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Teixeira}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Castro}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Antunes}},\ and\ \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Costa-Santos}},\ }\bibfield  {title}
+  {\bibinfo {title} {Nonlinear methods most applied to heart-rate time series:
+  A review},\ }\href {https://doi.org/10.3390/e22030309} {\bibfield  {journal}
+  {\bibinfo  {journal} {Entropy}\ }\textbf {\bibinfo {volume} {22}},\ \bibinfo
+  {pages} {309} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hoshi}\ \emph {et~al.}(2016)\citenamefont {Hoshi},
+  \citenamefont {Pastre}, \citenamefont {Vanderlei},\ and\ \citenamefont
+  {Godoy}}]{Hoshi_2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
+  {Hoshi}}, \bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont {Pastre}},
+  \bibinfo {author} {\bibfnamefont {L.~C.~M.}\ \bibnamefont {Vanderlei}},\ and\
+  \bibinfo {author} {\bibfnamefont {M.~F.}\ \bibnamefont {Godoy}},\ }\bibfield
+  {title} {\bibinfo {title} {Assessment of heart rate complexity recovery from
+  maximal exercise using recurrence quantification analysis},\ }in\ \href
+  {https://doi.org/10.1007/978-3-319-29922-8_8} {\emph {\bibinfo {booktitle}
+  {Springer Proceedings in Physics}}}\ (\bibinfo  {publisher} {Springer
+  International Publishing},\ \bibinfo {year} {2016})\ pp.\ \bibinfo {pages}
+  {157--168}\BibitemShut {NoStop}%
 \end{thebibliography}%

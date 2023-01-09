@@ -206,13 +206,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
 INPUT /home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc
 INPUT /home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc
-INPUT ./Model.pdf
-INPUT ./Model.pdf
-INPUT ./Model.pdf
 OUTPUT manuscript.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./Model.pdf
+INPUT ./Model.pdf
+INPUT ./Model.pdf
 INPUT ./manuscript.bbl
 INPUT ./manuscript.bbl
-INPUT ./manuscript.aux
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
