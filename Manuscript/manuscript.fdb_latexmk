@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex manuscript"] 1670875754 "manuscript.aux" "manuscript.bbl" "manuscript" 1670970849
+["bibtex manuscript"] 1671157241 "manuscript.aux" "manuscript.bbl" "manuscript" 1671157242
   "/usr/share/texlive/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "manuscript.aux" 1670970849 1162 4eea3247bb0aee56008af19b5dcc3c66 "lualatex"
-  "manuscriptNotes.bib" 1670970849 104 4d8bb863c86f3d7b03a471e9d4707f34 "lualatex"
+  "manuscript.aux" 1671157241 1243 b01ded28c6c4548a1f47e9f6b38b40fb "lualatex"
+  "manuscriptNotes.bib" 1671157241 104 4d8bb863c86f3d7b03a471e9d4707f34 "lualatex"
   (generated)
   "manuscript.bbl"
   "manuscript.blg"
-["lualatex"] 1670970848 "/home/msantillan/Trabajo/HeartVariability/Manuscript/manuscript.tex" "manuscript.pdf" "manuscript" 1670970849
+["lualatex"] 1671157241 "/home/msantillan/Trabajo/HeartVariability/Manuscript/manuscript.tex" "manuscript.pdf" "manuscript" 1671157242
   "/home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1670970827 128392 5ccdcd80529671c517f74edd952aa156 ""
   "/home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1670970827 127309 2c3a7c325c755353a32b5f3d0c56cb88 ""
   "/home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1670970827 128281 9d287a5267ef7e46310d2a20eb9d5ccd ""
@@ -15,7 +15,7 @@
   "/home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc" 1670970827 128357 0d16f9447129ad7063247fec219200ac ""
   "/home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc" 1670970827 128128 42f49fd77e514db5c6a12370d46af5eb ""
   "/home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1670970826 394792 3ff9e88d9c0a136e02f3596a51fdcef3 ""
-  "/home/msantillan/Trabajo/HeartVariability/Manuscript/manuscript.tex" 1670970786 3720 82f961a1c426ff4e489487deee5e2c39 ""
+  "/home/msantillan/Trabajo/HeartVariability/Manuscript/manuscript.tex" 1671157240 3749 e00ac7c21925528c7dcaa883f5b8b5d8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -149,9 +149,9 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1669755375 4595794 2d34e5a126a0aa697a2f4f787f7af198 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1669755400 4614340 1bacb7bff6b9ee400dc7a03f8d2c4da6 ""
   "Model.pdf" 1670859085 38092 6315ba48e9ebdad3ff01da082e19fe32 ""
-  "manuscript.aux" 1670970849 1162 4eea3247bb0aee56008af19b5dcc3c66 "lualatex"
-  "manuscript.bbl" 1670859085 1982 35453d3875d823f0ec9445e740a573d9 "bibtex manuscript"
-  "manuscript.tex" 1670970786 3720 82f961a1c426ff4e489487deee5e2c39 ""
+  "manuscript.aux" 1671157241 1243 b01ded28c6c4548a1f47e9f6b38b40fb "lualatex"
+  "manuscript.bbl" 1671157241 1982 35453d3875d823f0ec9445e740a573d9 "bibtex manuscript"
+  "manuscript.tex" 1671157240 3749 e00ac7c21925528c7dcaa883f5b8b5d8 ""
   (generated)
   "manuscript.aux"
   "manuscript.log"
