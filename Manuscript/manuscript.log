@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2022.11.29)  20 JAN 2023 13:56
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2022.11.29)  20 JAN 2023 15:29
  restricted system commands enabled.
 **/home/msantillan/Trabajo/HeartVariability/Manuscript/manuscript.tex
 (/home/msantillan/Trabajo/HeartVariability/Manuscript/manuscript.tex
@@ -310,62 +310,67 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<PV_Loops.pdf, id=16, 722.7pt x 406.51875pt>
-File: PV_Loops.pdf Graphic file (type pdf)
-<use PV_Loops.pdf>
-Package luatex.def Info: PV_Loops.pdf  used on input line 115.
-(luatex.def)             Requested size: 289.07999pt x 162.60461pt.
-<Fig01_A.pdf, id=17, 462.528pt x 346.896pt>
+<PVLoops_A.pdf, id=16, 462.528pt x 346.896pt>
+File: PVLoops_A.pdf Graphic file (type pdf)
+<use PVLoops_A.pdf>
+Package luatex.def Info: PVLoops_A.pdf  used on input line 117.
+(luatex.def)             Requested size: 216.81pt x 162.60709pt.
+<PVLoops_B.pdf, id=17, 462.528pt x 346.896pt>
+File: PVLoops_B.pdf Graphic file (type pdf)
+<use PVLoops_B.pdf>
+Package luatex.def Info: PVLoops_B.pdf  used on input line 118.
+(luatex.def)             Requested size: 216.81pt x 162.60709pt.
+<Fig01_A.pdf, id=18, 462.528pt x 346.896pt>
 File: Fig01_A.pdf Graphic file (type pdf)
 <use Fig01_A.pdf>
-Package luatex.def Info: Fig01_A.pdf  used on input line 125.
+Package luatex.def Info: Fig01_A.pdf  used on input line 129.
 (luatex.def)             Requested size: 216.81pt x 162.60709pt.
-<Fig01_B.pdf, id=18, 462.528pt x 346.896pt>
+<Fig01_B.pdf, id=19, 462.528pt x 346.896pt>
 File: Fig01_B.pdf Graphic file (type pdf)
 <use Fig01_B.pdf>
-Package luatex.def Info: Fig01_B.pdf  used on input line 126.
+Package luatex.def Info: Fig01_B.pdf  used on input line 130.
 (luatex.def)             Requested size: 216.81pt x 162.60709pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3<./PV_Loops.pdf>]
-<Fig02_A.pdf, id=28, 462.528pt x 346.896pt>
+[3<./PVLoops_A.pdf><./PVLoops_B.pdf>]
+<Fig02_A.pdf, id=95, 462.528pt x 346.896pt>
 File: Fig02_A.pdf Graphic file (type pdf)
 <use Fig02_A.pdf>
-Package luatex.def Info: Fig02_A.pdf  used on input line 141.
+Package luatex.def Info: Fig02_A.pdf  used on input line 145.
 (luatex.def)             Requested size: 216.81pt x 162.60709pt.
-<Fig02_B.pdf, id=29, 462.528pt x 346.896pt>
+<Fig02_B.pdf, id=96, 462.528pt x 346.896pt>
 File: Fig02_B.pdf Graphic file (type pdf)
 <use Fig02_B.pdf>
-Package luatex.def Info: Fig02_B.pdf  used on input line 142.
+Package luatex.def Info: Fig02_B.pdf  used on input line 146.
 (luatex.def)             Requested size: 216.81pt x 162.60709pt.
  [4<./Fig01_A.pdf><./Fig01_B.pdf>] [5<./Fig02_A.pdf><./Fig02_B.pdf>]
-<model.pdf, id=224, 421.10078pt x 298.75394pt>
+<model.pdf, id=291, 421.10078pt x 298.75394pt>
 File: model.pdf Graphic file (type pdf)
 <use model.pdf>
-Package luatex.def Info: model.pdf  used on input line 171.
+Package luatex.def Info: model.pdf  used on input line 175.
 (luatex.def)             Requested size: 289.07999pt x 205.09195pt.
  [6<./Model.pdf>] [7] [8]
-LaTeX Font Info:    Trying to load font information for LGR+lmr on input line 223.
+LaTeX Font Info:    Trying to load font information for LGR+lmr on input line 227.
  (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrlmr.fd
 File: lgrlmr.fd 2017/07/29 v1.2 Scalable Greek Latin Modern Regular
 ) (./manuscript.bbl [9] [10]) [11] (./manuscript.aux))
 
 Here is how much of LuaTeX's memory you used:
- 6171 strings out of 477474
+ 6181 strings out of 477474
  100000,460012 words of node,token memory allocated
  601 words of node memory still in use:
    10 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 22 attribute, 56 glue_spec, 22 attribute_list nodes
    avail lists: 1:1,2:438,3:346,4:22,5:484,6:33,7:8284,8:52,9:839,10:16,11:694
- 26963 multiletter control sequences out of 65536+600000
+ 26969 multiletter control sequences out of 65536+600000
  90 fonts using 6114783 bytes
  69i,11n,72p,1681b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb>
-Output written on manuscript.pdf (11 pages, 254008 bytes).
+Output written on manuscript.pdf (11 pages, 325059 bytes).
 
-PDF statistics: 350 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
+PDF statistics: 417 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

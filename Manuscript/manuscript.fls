@@ -217,9 +217,6 @@ INPUT /home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmr
 INPUT /home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc
 OUTPUT manuscript.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./PV_Loops.pdf
-INPUT ./PV_Loops.pdf
-INPUT ./PV_Loops.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -229,6 +226,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT ./PVLoops_A.pdf
+INPUT ./PVLoops_A.pdf
+INPUT ./PVLoops_A.pdf
+INPUT ./PVLoops_B.pdf
+INPUT ./PVLoops_B.pdf
+INPUT ./PVLoops_B.pdf
 INPUT ./Fig01_A.pdf
 INPUT ./Fig01_A.pdf
 INPUT ./Fig01_A.pdf
