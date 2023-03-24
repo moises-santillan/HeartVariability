@@ -55,12 +55,13 @@ preprint,
 %%height=10in,a5paper,hmargin={3cm,0.8in},
 %]{geometry}
 \usepackage{textgreek}
+\usepackage{url}
 
 \begin{document}
 
 \preprint{}
 
-\title{Heart stroke-volume variability in a murine model for heart failure with reduced ejection fraction}% Force line breaks with \\
+\title{Potential involvement of the Frank-Starling mechanism in reduced stroke volume variability observed in a murine model of heart failure with reduced ejection fraction}% Force line breaks with \\
 %\thanks{A footnote to the article title}%
 
 \author{Gemma Fernández-Mendoza}
@@ -92,7 +93,7 @@ The Institute for Obesity Research, Tecnologico de Monterrey, Monterrey, NL, Mex
              %  but any date may be explicitly specified
 
 \begin{abstract}
-Write an abstract
+Abnormal or reduced heart rate variability (HRV) is linked with conditions like chronic heart failure, diabetic neuropathy, and post-cardiac-transplant depression, among others. Such changes are associated with imbalances in the sympathetic and vagal nervous systems, which play a crucial role in regulating heart rate. However, other fundamental mechanisms that control the heart's contractile strength in vivo, including the Frank-Starling mechanism and the force-frequency relationship, have also been observed to change in patients with chronic heart failure. As a result, it is possible that other variables essential to heart function, such as stroke volume, may be impacted by these changes. To explore this possibility, we examined stroke volume variability (SVV) in a murine model of heart failure with reduced ejection fraction and found that SVV decreases in such condition. Our analysis of a simple cardiovascular system model suggests that the observed reduction in SVV may be due to changes in the Frank-Starling mechanism.
 \end{abstract}
 
 %\keywords{Suggested keywords}%Use showkeys class option if keyword
@@ -121,17 +122,32 @@ At 28 days post-implantation of the pump, left-ventricle hemodynamics were evalu
 
 \subsection{Fibrosis and cellular hypertrophy assessment}
 
-After euthanizing the mice, their hearts were extracted and subjected to a semi-quantitative assessment of fibrosis and cellular hypertrophy. This was done by staining the samples with Masson's Trichrome or hemotosilin eosin and capturing microphotographs using an Imager Z.1 Zeiss microscope, equipped with an AxioCam HRm camera. The microphotographs were processed using the AxioVision software. The PV records of mice with hearts that showed no signs of fibrosis and cellular hypertrophy indicative of heart failure were excluded from the study.
+After euthanizing the mice, their hearts were extracted and subjected to a semi-quantitative assessment of fibrosis and cellular hypertrophy, following \citet{Ruiz_Esparza_2016}. The samples were stained with Masson’s Trichrome or hemotosilin eosin and microphotographs were captured using an Imager Z.1 Zeiss microscope equipped with an AxioCam HRm camera. The microphotographs were processed using the AxioVision software. The PV records of mice with hearts that showed no signs of fibrosis and cellular hypertrophy indicative of heart failure were excluded from the study
+
+\subsection{Variability analysis}
+
+A variety of techniques have been used to measure variability. The vast majority of them are founded on the concept of signal stationarity. However, the heart's inherent non-stationary nature---which undergoes continuous physiological change to adapt to external stimuli---presents a significant challenge that could result in inaccurate results \citep{Marwan_2007}. Although several signal preprocessing methodologies have been proposed to address these issues, nonlinear analysis-based strategies are commonly employed and appear to produce reliable results. \citep{Marwan_2002, Aubert_2003, Marwan_2007, Giuliani_1998, 
+Rajendra_Acharya_2006, Webber_1994, Henriques_2020}. One of them, used in different scientific domains is the Poincairé plot \citep{Hoshi_2016, Webber_1994, Voss_2008}. 
+
+%The Poincaré plot is a graphical representation of a time series data that allows to visualize the dynamic patterns and the structure of variability in the system. It is named after the French mathematician Henri Poincaré, who first used it to study celestial mechanics.
+
+The Poincaré plot is constructed by plotting the value of a given variable at time t+1 on the x-axis, against the value of the same variable at time t on the y-axis. Then, each point on the plot represents a pair of consecutive values of the variable, and the shape of the plot reflects the temporal dependencies and the non-linear dynamics of the system.
+
+%In particular, the Poincaré plot can reveal information about the periodicity, the randomness, and the regularity of the data. For example, a circular shape of the plot indicates a periodic behavior, while a scattered or irregular shape suggests a more chaotic or random pattern. Additionally, the slope of the plot can indicate the rate of change or the directionality of the system.
+
+In a Poincaré plot, there are two measures of the scatter of the data points (termed SD1 and SD2), which are used to quantify the dynamics of the system. SD1 is the standard deviation of the perpendicular distance of the data points to the line of identity (i.e., the line where the x and y values are equal, $y = -x$). SD1 is also known as the short-term variability, and it reflects the magnitude of the fluctuations of the system at a short time scale. In the particular case of heart-beat duration time-series, SD1 is related to the parasympathetic nervous system activity, which regulates the beat-to-beat changes in heart rate. SD2, on the other hand, is the standard deviation of the distances of the data points to the center of gravity of the plot, $y = x$. SD2 is also known as the long-term variability or the overall variability, and it reflects the magnitude of the fluctuations of the system at a longer time scale. In the case of heart rate variability, SD2 is related to the sympathetic nervous system activity \citep{Zimatore_2022}.
+
+An algorithm was developed in \texttt{Python} to estimate the Poincaré-plot indices (SD1 and SD2) of heart-rate and stroke volume variability from time series data obtained experimentally. The algorithm has been made available for reference along with the experimentally recorded data at the following URL: \url{https://github.com/moises-santillan/HeartVariability}.
 
 \subsection{Statistical analysis}
 
-Statistical analysis was performed to identify significant differences between groups using Student's t-tests with a minimum confidence interval of 95%.
+We conducted statistical analyses to detect significant differences between groups using Student's t-tests. To perform such analyses, we utilized the \texttt{ttest\_ind} function from the \texttt{scipy.stats} library in \texttt{Python}. Results with p-values less than 0.05 (type I error) were considered statistically significant.
 
 \section{\label{sec:res}Results}
 
-\subsection{\label{sec:conclu}Experimental and heart variability analysis}
+\subsection{\label{sec:conclu}Experimental results and heart variability analysis}
 
-We conducted the experiments on the control and experimental groups according to the procedures outlined in Section Materials and Methods. From the recorded ventricle pressure and volume data we reconstructed for each experimental record the so-called P-V diagrams illustrated in Fig. \ref{fig:PVLoops}. Thereafter, we were able to extract time series of physiological interest from these diagrams, such as those of successive cardiac-cycle periods and stroke volumes.
+We conducted the experiments on the control and HFrEF groups according to the procedures outlined in Section Materials and Methods. From the recorded ventricle pressure and volume data we reconstructed for each experimental record the so-called P-V diagrams illustrated in Fig. \ref{fig:PVLoops}. Thereafter, we were able to extract time series of physiological interest from these diagrams, such as those of successive cardiac-cycle periods and stroke volumes.
 
 \begin{figure}[h!]
     \begin{tabular}{cc}
@@ -139,11 +155,11 @@ We conducted the experiments on the control and experimental groups according to
         \includegraphics[width=3in]{PVLoops_A.pdf} &
         \includegraphics[width=3in]{PVLoops_B.pdf}
     \end{tabular}
-    \caption{Sample PV loops recorded from a mouse in the control group (A) and a mouse in the HFrEF experimental group (B).}
+    \caption{Sample PV loops recorded from a mouse in the control group (A) and a mouse in the HFrEF group (B).}
     \label{fig:PVLoops}
 \end{figure}
 
-We took the time series of consecutive cardiac-cycle periods and calculated the mean cycle duration for each experimental record, then averaged all of the values obtained in each group. Figure \ref{fig:fig01}A depicts the obtained results. No significative difference can be appreciated between the results of the control group and those of the group of mice with induced cardiac failure. This finding contradicts those of \citet{Kamen_1995}, who found increased heart rates in patients with chronic heart failure. However, keep in mind that the sympathetic and parasympathetic nervous systems control heart rate. In light of this, the fact that mice were anesthetized during the course of our experiments (with the resulting affection of the autonomic nervous system) may help to explain the outcomes.
+The mean cycle duration was calculated for each experimental record by taking the time series of consecutive cardiac-cycle periods and averaging all of the values obtained in each group. Figure \ref{fig:fig01}A shows the results obtained. No significant difference was observed between the control group and the group of mice with induced cardiac failure, which contradicts the findings of \citet{Kamen_1995}, who found increased heart rates in patients with chronic heart failure. However, it is important to note that heart rate is controlled by the sympathetic and parasympathetic nervous systems. During the experiments, mice were anesthetized, which affects the autonomous nervous system. This may help explain the outcomes. Indeed, as noted by \citep{Nishiyama_2016, Kato_1992}, the employed anesthesia is known to affect heart rate.
 
 \begin{figure}[h!]
     \begin{tabular}{cc}
@@ -151,15 +167,15 @@ We took the time series of consecutive cardiac-cycle periods and calculated the 
         \includegraphics[width=3in]{Fig01_A.pdf} &
         \includegraphics[width=3in]{Fig01_B.pdf}
     \end{tabular}
-    \caption{A) Average cardiac-cycle periods for control (blue) and experimental (orange) groups. B) Average stroke volumes for control (blue) and experimental (orange) groups. Brackets indicates statistically significant difference.}
+    \caption{A) Average cardiac-cycle periods for control (blue) and HFrEF (orange) groups. B) Average stroke volumes for control (blue) and HFrEF (orange) groups. Brackets indicates statistically significant difference.}
     \label{fig:fig01}
 \end{figure}
 
 We also calculated the mean values for the time series of consecutive stroke volumes for every experimental record. Then we averaged the results from each group and plotted the results in Fig. \ref{fig:fig01}B. As expected, there is a significant reduction in stroke volume in the group with induced heart failure when compared to the control group.
 
-We were interested in studying the variability of heart-cycle periods and stroke volumes. In this regard, a variety of techniques have been used to measure heart rate variability. The vast majority of them are founded on the concept of signal stationarity. However, the heart rate's inherent non-stationary nature---which undergoes continuous physiological change to adapt to external stimuli---presents a significant challenge that could result in inaccurate results \citep{Marwan_2007}. Although several signal preprocessing methodologies have been proposed to address these issues, nonlinear analysis-based strategies are commonly employed and appear to produce reliable results. \citep{Marwan_2002, Aubert_2003, Marwan_2007, Giuliani_1998, Rajendra_Acharya_2006, Webber_1994, Henriques_2020}. One of them that is used in different scientific domains is the Poincairé plot \citep{Hoshi_2016, Webber_1994, Voss_2008}. In a Poincairé plot, all values in a time series are plotted against previous values, resulting in an ellipsoidal point cloud. The standard deviations of the point projections along the lines $y = x$ (SD2) and $y = -x$ (SD1) can be used to quantitatively analyze this diagram. The transverse axis of the ellipse (SD1) is a measure of the short-term changes in the time series, while the longitudinal axis (SD2) reflects long-term changes. In the particular case of heart-beat duration time-series, SD1 is considered as an indicator of the parasympathetic activity, whereas SD2 is considered as an inverse indicator of the sympathetic activity \citep{Zimatore_2022}.
+We were interested in studying the variability of heart-cycle periods and stroke volumes. Therefore, we measured the above described Poincaré-plot indices of heart-cycle period variability for every experimental record, and averaged the results corresponding to the control and HFrEF groups. The outcomes are plotted in Fig. \ref{fig:fig02}A. Observe that no statistically significant difference exists between the indices corresponding to the control and HFrEF groups. This suggests that, under our experimental conditions, heart failure does not affect heart rate variability (HRV). 
 
-We measured the above described Poincaré-plot indices of heart-cycle period variability for every experimental record, and averaged the results corresponding to the control and experimental groups. The outcomes are plotted in Fig. \ref{fig:fig02}A. Observe that no statistically significative difference exists between the indices corresponding to the control and experimental groups. This suggests that, under our experimental conditions, heart failure does not affect heart rate variability (HRV). This finding contradicts \citet{Kamen_1995} and other authors, who have reported that HRV decreases in patients with hart failure and we believe that it is also related to the fact that mice are anesthetized in our experimental protocol. 
+The same methodology was used to investigate the variability of stroke volumes. The results are shown in Fig. \ref{fig:fig02}B. The HFrEF group's SD1 and SD2 values are significantly lower than those of the control group. This, together with the absence of changes in HRV suggests that both types of variability are dissociated. Understanding why this happens is an intriguing question in itself. 
 
 \begin{figure}[h!]
     \begin{tabular}{cc}
@@ -167,19 +183,20 @@ We measured the above described Poincaré-plot indices of heart-cycle period var
         \includegraphics[width=3in]{Fig02_A.pdf} &
         \includegraphics[width=3in]{Fig02_B.pdf}
     \end{tabular}
-    \caption{A) Poincairé-plot indices of heart period variability for control (blue) and experimental (orange) groups. B) Poincairé-plot indices of stroke volume variability for control (blue) and experimental (orange) groups. Brackets indicates statistically significant difference.}
+    \caption{A) Poincairé-plot indices of heart period variability for control (blue) and HFrEF (orange) groups. B) Poincairé-plot indices of stroke volume variability for control (blue) and HFrEF (orange) groups. Brackets indicates statistically significant difference.}
     \label{fig:fig02}
 \end{figure}
 
-The same methodology was used to investigate the variability of stroke volumes. The results are shown in Fig. \ref{fig:fig02}B. The experimental group's SD1 and SD2 values are significantly lower than those of the control group. This suggests that heart failure affects the mechanisms in charge of controlling stroke volume. Furthermore, the absence of changes in HRV suggests that both types of variability are dissociated.
 
-In summary, we found that, in our experimental protocol, there is no difference in the heart rate of mice with induced heart failure compared to those in the control group. The same is true for heart rate variability. These findings contradict previous reports, but we believe this discrepancy can be explained by the fact that the mice in our experiments are sedated. On the other hand, we found that, as expected, stroke volume decreases in mice with heart failure, as does stroke volume variability. 
+We found that, in our experimental protocol, there is no difference in the heart rate of mice with induced heart failure compared to those in the control group. The same is true for heart rate variability (HRV). This last finding contradicts \citet{Kamen_1995} and other authors, who have reported that HRV decreases in patients with heart failure. We suggest that such discrepancy is related to the fact that mice are anesthetized in our experimental protocol. On the other hand, we found that, as expected, stroke volume decreases in mice with heart failure, as does stroke volume variability. 
 
-Reduced HRV has not only been observed in heart failure patients, but it has also been shown to be a strong predictor of cardiovascular events and mortality. Furthermore, HRV has been linked to a number of vascular risk factors, including hypertension, diabetes, depression, and subclinical inflammation \citep{Zeki_Al_Hazzouri_2014}. We find it intriguing that the variability of stroke volume, which is also critical to heart function, is reduced in a pathology such as heart failure. What is more, our findings indicate that this decreased variability is caused by mechanisms other than those involved in HRV control. To gain some insight into this last question, we analyze in the following section a simple Frank-Starling model of the cardiovascular system that was previously introduced by \citet{Upton_2005}.
+As we mentioned before, HRV is a non-invasive tool that can provide valuable insights into the physiological state of an individual, including their stress levels, cardiovascular health, and risk of diseases such as diabetes and hypertension. Reduced HRV has been shown to be a strong predictor of cardiovascular events and mortality \citep{Zeki_Al_Hazzouri_2014}. We find it intriguing that the variability of stroke volume, which is also critical to heart function, is reduced in a pathology such as heart failure. What is more, our findings indicate that this decreased variability is caused by mechanisms other than those involved in HRV control. 
+
+In order to gain some insight into this last question, we analyze in the following section a simple Frank-Starling model of the cardiovascular system that was previously introduced by \citet{Upton_2005}.
 
 \subsection{Mathematical Model}
 
-The model by \citeauthor{Upton_2005} is schematically represented in Fig. \ref{fig:model}. It divides the blood in circulation into arterial and venous compartments. The pressure ($P_x$) and blood volume ($V_x$) in each compartment are related by the corresponding compliance ($C_x$):
+The model by \citeauthor{Upton_2005} is schematically represented in Fig. \ref{fig:model}. It separates the circulating blood into arterial and venous compartments. The pressure ($P_x$) and blood volume ($V_x$) in each compartment are related by the corresponding compliance ($C_x$):
 \[
     P_x = V_x / C_x,
 \] 
@@ -248,7 +265,9 @@ We found that stroke volume variability (SVV) decreases in a murine model for he
 
 The Frank-Starling mechanism, along with the force-frequency relationship and the sympathetic and vagal nervous systems, is one of the basic mechanisms that regulate the contractile strength of the heart in vivo \citep{Holubarsch_1996}. Significant changes in the force-frequency relationship and the \textbeta-adrenoceptor system have been described in detail for failing human myocardium \citep{Mulieri_1992, Pieske_1992, Bristow_1982, Bristow_1989},  with the latter resulting in reduced HRV. However, this cannot explain SVV reduction in our experiments. Through a carefully planned set of experiments at the cell, organ, and organism levels, \citet{Holubarsch_1996} demonstrated that the Frank-Starling mechanism is well preserved in failing human myocardium. They also discovered significant changes in diastolic myocardial distensibility in patients with chronic heart failure. We speculate that these changes are at the root of the observed SVV reduction.
 
-The findings presented in this paper should be approached with caution given the limitations of our methodology. While the absence of HRV in our experimental setup enabled us to establish that stroke volume variability is regulated by distinct mechanisms, it also restricts the generalizability of our results due to its departure from the typical physiological state. To verify our findings, less intrusive methods of evaluating heart hemodynamics are necessary. The simplicity of our mathematical model is an additional constraint in our approach. However, creating and examining a more intricate model requires the estimation of model parameters from experimental data, some of which are not readily accessible in existing literature.
+The findings presented in this paper should be approached with caution given the limitations of our methodology. While the absence of HRV in our experimental setup enabled us to establish that stroke volume variability is regulated by distinct mechanisms, it also restricts the generalizability of our results due to its departure from the typical physiological state. In addition, measurement introduces variability in our experimental setup, whether due to the movement/mechanical stability of a catheter placed in a beating heart or due to variability introduced by human error. To verify our findings, less intrusive methods of evaluating heart hemodynamics are necessary. The simplicity of our mathematical model is an additional constraint in our approach. However, creating and examining a more intricate model requires the estimation of model parameters from experimental data, some of which are not readily accessible in existing literature.
+
+If further experimentation with appropriate setups validates our findings, it would give rise to several intriguing queries. For instance, what additional factors could potentially influence the reduction of variability in parameters such as SV? Would the variability of other parameters, such as injection fraction, also undergo changes? Could variability serve as an indicator of the severity of heart failure?
 
 \begin{acknowledgments}
 We wish to acknowledge Prof. Fernando Angulo-Brown for fruitful discussion and advice.
@@ -256,7 +275,7 @@ We wish to acknowledge Prof. Fernando Angulo-Brown for fruitful discussion and a
 
 \section*{Data availability statement}
 
-The data that support the findings of this study are openly available at the following URL/DOI:
+The data that support the findings of this study are openly available at the following URL/DOI: \url{https://github.com/moises-santillan/HeartVariability}
 
 
 
