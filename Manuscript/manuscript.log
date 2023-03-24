@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2022.11.29)  20 JAN 2023 15:29
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2022.11.29)  24 MAR 2023 12:22
  restricted system commands enabled.
 **/home/msantillan/Trabajo/HeartVariability/Manuscript/manuscript.tex
 (/home/msantillan/Trabajo/HeartVariability/Manuscript/manuscript.tex
@@ -244,10 +244,10 @@ File: greek-fontenc.def 2020/10/30 2.0 Common Greek font encoding definitions
 ))
 Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/*}. on input line 69.
 )
-Class revtex4-2 Info: Unrecognized array package. Please update this document class! (Proceeding with fingers crossed.) on input line 59.
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 59.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 59.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 59.
+Class revtex4-2 Info: Unrecognized array package. Please update this document class! (Proceeding with fingers crossed.) on input line 60.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 60.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 60.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 60.
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2022-07-01 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count277
@@ -255,32 +255,32 @@ File: l3backend-luatex.def 2022-07-01 L3 backend support: PDF output (LuaTeX)
 ) (./manuscript.aux)
 \openout1 = manuscript.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 60.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 59.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 60.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 60.
  (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count278
@@ -302,75 +302,75 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \openout3 = manuscriptNotes.bib
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 101.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 101.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<PVLoops_A.pdf, id=16, 462.528pt x 346.896pt>
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \vbox (4.12436pt too high) has occurred while \output is active []
+
+ [2] [3] [4]
+<PVLoops_A.pdf, id=26, 462.528pt x 346.896pt>
 File: PVLoops_A.pdf Graphic file (type pdf)
 <use PVLoops_A.pdf>
-Package luatex.def Info: PVLoops_A.pdf  used on input line 117.
+Package luatex.def Info: PVLoops_A.pdf  used on input line 155.
 (luatex.def)             Requested size: 216.81pt x 162.60709pt.
-<PVLoops_B.pdf, id=17, 462.528pt x 346.896pt>
+<PVLoops_B.pdf, id=27, 462.528pt x 346.896pt>
 File: PVLoops_B.pdf Graphic file (type pdf)
 <use PVLoops_B.pdf>
-Package luatex.def Info: PVLoops_B.pdf  used on input line 118.
+Package luatex.def Info: PVLoops_B.pdf  used on input line 156.
 (luatex.def)             Requested size: 216.81pt x 162.60709pt.
-<Fig01_A.pdf, id=18, 462.528pt x 346.896pt>
+ [5<./PVLoops_A.pdf><./PVLoops_B.pdf>]
+<Fig01_A.pdf, id=103, 462.528pt x 346.896pt>
 File: Fig01_A.pdf Graphic file (type pdf)
 <use Fig01_A.pdf>
-Package luatex.def Info: Fig01_A.pdf  used on input line 129.
+Package luatex.def Info: Fig01_A.pdf  used on input line 167.
 (luatex.def)             Requested size: 216.81pt x 162.60709pt.
-<Fig01_B.pdf, id=19, 462.528pt x 346.896pt>
+<Fig01_B.pdf, id=104, 462.528pt x 346.896pt>
 File: Fig01_B.pdf Graphic file (type pdf)
 <use Fig01_B.pdf>
-Package luatex.def Info: Fig01_B.pdf  used on input line 130.
+Package luatex.def Info: Fig01_B.pdf  used on input line 168.
 (luatex.def)             Requested size: 216.81pt x 162.60709pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3<./PVLoops_A.pdf><./PVLoops_B.pdf>]
-<Fig02_A.pdf, id=95, 462.528pt x 346.896pt>
+ [6<./Fig01_A.pdf><./Fig01_B.pdf>]
+<Fig02_A.pdf, id=198, 462.528pt x 346.896pt>
 File: Fig02_A.pdf Graphic file (type pdf)
 <use Fig02_A.pdf>
-Package luatex.def Info: Fig02_A.pdf  used on input line 145.
+Package luatex.def Info: Fig02_A.pdf  used on input line 183.
 (luatex.def)             Requested size: 216.81pt x 162.60709pt.
-<Fig02_B.pdf, id=96, 462.528pt x 346.896pt>
+<Fig02_B.pdf, id=199, 462.528pt x 346.896pt>
 File: Fig02_B.pdf Graphic file (type pdf)
 <use Fig02_B.pdf>
-Package luatex.def Info: Fig02_B.pdf  used on input line 146.
+Package luatex.def Info: Fig02_B.pdf  used on input line 184.
 (luatex.def)             Requested size: 216.81pt x 162.60709pt.
- [4<./Fig01_A.pdf><./Fig01_B.pdf>] [5<./Fig02_A.pdf><./Fig02_B.pdf>]
-<model.pdf, id=291, 421.10078pt x 298.75394pt>
+ [7<./Fig02_A.pdf><./Fig02_B.pdf>]
+<model.pdf, id=298, 421.10078pt x 298.75394pt>
 File: model.pdf Graphic file (type pdf)
 <use model.pdf>
-Package luatex.def Info: model.pdf  used on input line 175.
+Package luatex.def Info: model.pdf  used on input line 214.
 (luatex.def)             Requested size: 289.07999pt x 205.09195pt.
- [6<./Model.pdf>] [7] [8]
-LaTeX Font Info:    Trying to load font information for LGR+lmr on input line 227.
+ [8] [9<./Model.pdf>] [10]
+LaTeX Font Info:    Trying to load font information for LGR+lmr on input line 266.
  (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrlmr.fd
 File: lgrlmr.fd 2017/07/29 v1.2 Scalable Greek Latin Modern Regular
-) (./manuscript.bbl [9] [10]) [11] (./manuscript.aux))
+) [11] (./manuscript.bbl [12] [13]) [14] (./manuscript.aux))
 
 Here is how much of LuaTeX's memory you used:
- 6181 strings out of 477474
+ 6198 strings out of 477474
  100000,460012 words of node,token memory allocated
  601 words of node memory still in use:
    10 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 22 attribute, 56 glue_spec, 22 attribute_list nodes
-   avail lists: 1:1,2:438,3:346,4:22,5:484,6:33,7:8284,8:52,9:839,10:16,11:694
- 26969 multiletter control sequences out of 65536+600000
- 90 fonts using 6114783 bytes
- 69i,11n,72p,1681b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb>
-Output written on manuscript.pdf (11 pages, 325059 bytes).
+   avail lists: 1:1,2:416,3:334,4:35,5:519,6:36,7:9273,8:52,9:481,10:28,11:878
+ 26986 multiletter control sequences out of 65536+600000
+ 91 fonts using 6240871 bytes
+ 69i,11n,72p,1464b,367s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb>
+Output written on manuscript.pdf (14 pages, 340117 bytes).
 
-PDF statistics: 417 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
+PDF statistics: 433 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

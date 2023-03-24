@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{22}%
+\begin{thebibliography}{26}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -220,6 +220,52 @@
   myocardium.},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Molecular Pharmacology}\ }\textbf {\bibinfo {volume} {35}},\ \bibinfo
   {pages} {295} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ruiz-Esparza}\ \emph {et~al.}(2016)\citenamefont
+  {Ruiz-Esparza}, \citenamefont {Segura-Ibarra}, \citenamefont {Cordero-Reyes},
+  \citenamefont {Youker}, \citenamefont {Serda}, \citenamefont {Cruz-Solbes},
+  \citenamefont {Amione-Guerra}, \citenamefont {Yokoi}, \citenamefont {Kirui},
+  \citenamefont {Cara}, \citenamefont {Paez-Mayorga}, \citenamefont
+  {Flores-Arredondo}, \citenamefont {Guerrero-Beltr{\'{a}}n}, \citenamefont
+  {Garcia-Rivas}, \citenamefont {Ferrari}, \citenamefont {Blanco},\ and\
+  \citenamefont {Torre-Amione}}]{Ruiz_Esparza_2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~U.}\ \bibnamefont
+  {Ruiz-Esparza}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Segura-Ibarra}}, \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
+  {Cordero-Reyes}}, \bibinfo {author} {\bibfnamefont {K.~A.}\ \bibnamefont
+  {Youker}}, \bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont {Serda}},
+  \bibinfo {author} {\bibfnamefont {A.~S.}\ \bibnamefont {Cruz-Solbes}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Amione-Guerra}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Yokoi}}, \bibinfo {author}
+  {\bibfnamefont {D.~K.}\ \bibnamefont {Kirui}}, \bibinfo {author}
+  {\bibfnamefont {F.~E.}\ \bibnamefont {Cara}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Paez-Mayorga}}, \bibinfo {author}
+  {\bibfnamefont {J.~H.}\ \bibnamefont {Flores-Arredondo}}, \bibinfo {author}
+  {\bibfnamefont {C.~E.}\ \bibnamefont {Guerrero-Beltr{\'{a}}n}}, \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Garcia-Rivas}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Ferrari}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {Blanco}},\ and\ \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Torre-Amione}},\ }\bibfield  {title} {\bibinfo {title} {A
+  specifically designed nanoconstruct associates, internalizes, traffics in
+  cardiovascular cells, and accumulates in failing myocardium: a new strategy
+  for heart failure diagnostics and therapeutics},\ }\href
+  {https://doi.org/10.1002/ejhf.463} {\bibfield  {journal} {\bibinfo  {journal}
+  {European Journal of Heart Failure}\ }\textbf {\bibinfo {volume} {18}},\
+  \bibinfo {pages} {169} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pacher}\ \emph {et~al.}(2008)\citenamefont {Pacher},
+  \citenamefont {Nagayama}, \citenamefont {Mukhopadhyay}, \citenamefont
+  {B{\'{a}}tkai},\ and\ \citenamefont {Kass}}]{Pacher_2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Pacher}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Nagayama}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Mukhopadhyay}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {B{\'{a}}tkai}},\ and\ \bibinfo
+  {author} {\bibfnamefont {D.~A.}\ \bibnamefont {Kass}},\ }\bibfield  {title}
+  {\bibinfo {title} {Measurement of cardiac function using
+  pressure{\textendash}volume conductance catheter technique in mice and
+  rats},\ }\href {https://doi.org/10.1038/nprot.2008.138} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature Protocols}\ }\textbf {\bibinfo {volume} {3}},\
+  \bibinfo {pages} {1422} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Marwan}\ \emph {et~al.}(2007)\citenamefont {Marwan},
   \citenamefont {Carmenromano}, \citenamefont {Thiel},\ and\ \citenamefont
   {Kurths}}]{Marwan_2007}%
@@ -350,6 +396,30 @@
   {journal} {International Journal of Environmental Research and Public
   Health}\ }\textbf {\bibinfo {volume} {19}},\ \bibinfo {pages} {12719}
   (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nishiyama}(2016)}]{Nishiyama_2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Nishiyama}},\ }\bibfield  {title} {\bibinfo {title} {Changes in heart rate
+  variability during anaesthesia induction using sevoflurane or isoflurane with
+  nitrous oxide},\ }\href {https://doi.org/10.5603/ait.a2016.0041} {\bibfield
+  {journal} {\bibinfo  {journal} {Anestezjologia Intensywna Terapia}\ }\textbf
+  {\bibinfo {volume} {48}},\ \bibinfo {pages} {248} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kato}\ \emph {et~al.}(1992)\citenamefont {Kato},
+  \citenamefont {Komatsu}, \citenamefont {Kimura}, \citenamefont {Sugiyama},
+  \citenamefont {Nakashima},\ and\ \citenamefont {Shimada}}]{Kato_1992}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kato}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Komatsu}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Kimura}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Sugiyama}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Nakashima}},\ and\ \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Shimada}},\ }\bibfield  {title} {\bibinfo
+  {title} {Spectral analysis of heart rate variability during isoflurane
+  anesthesia},\ }\href {https://doi.org/10.1097/00000542-199210000-00009}
+  {\bibfield  {journal} {\bibinfo  {journal} {Anesthesiology}\ }\textbf
+  {\bibinfo {volume} {77}},\ \bibinfo {pages} {669} (\bibinfo {year}
+  {1992})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Upton}\ and\ \citenamefont
   {Ludbrook}(2005)}]{Upton_2005}%
   \BibitemOpen

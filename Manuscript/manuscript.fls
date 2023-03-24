@@ -214,9 +214,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
 INPUT /home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc
-INPUT /home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc
 OUTPUT manuscript.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc
+INPUT /home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
