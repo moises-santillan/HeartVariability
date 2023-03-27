@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex manuscript"] 1679786474 "manuscript.aux" "manuscript.bbl" "manuscript" 1679786475
+["bibtex manuscript"] 1679786474 "manuscript.aux" "manuscript.bbl" "manuscript" 1679881108
   "/usr/share/texlive/texmf-dist/bibtex/bst/revtex/apsrev4-2.bst" 1601932770 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "manuscript.aux" 1679786475 7405 03fc360e4a1c4bf8100a24acc6bec142 "lualatex"
+  "manuscript.aux" 1679881108 7405 03fc360e4a1c4bf8100a24acc6bec142 "lualatex"
   "manuscript.bib" 1679681751 13742 7f5e44bd1689c42da33a537ff208791b ""
-  "manuscriptNotes.bib" 1679786475 104 4d8bb863c86f3d7b03a471e9d4707f34 "lualatex"
+  "manuscriptNotes.bib" 1679881108 104 4d8bb863c86f3d7b03a471e9d4707f34 "lualatex"
   (generated)
   "manuscript.bbl"
   "manuscript.blg"
-["lualatex"] 1679786474 "/home/msantillan/Trabajo/HeartVariability/Manuscript/manuscript.tex" "manuscript.pdf" "manuscript" 1679786475
+["lualatex"] 1679881107 "/home/msantillan/Trabajo/HeartVariability/Manuscript/manuscript.tex" "manuscript.pdf" "manuscript" 1679881108
   "/home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc" 1679681814 81754 a51e06484a5bb20849344039a7cc5b7d ""
   "/home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1670970827 128392 5ccdcd80529671c517f74edd952aa156 ""
   "/home/msantillan/.texlive2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc" 1673309675 136294 09728fc21177978741a7b8266f6c1d72 ""
@@ -169,16 +169,16 @@
   "/usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf" 1255129361 110400 d844cffffa1af59f9d2bb1bfdb6f1a2c ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1669755375 4595794 2d34e5a126a0aa697a2f4f787f7af198 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1669755400 4614340 1bacb7bff6b9ee400dc7a03f8d2c4da6 ""
-  "Fig01_A.pdf" 1679786226 15007 b94f9eaf161252918e4d330818ac89a6 ""
-  "Fig01_B.pdf" 1679786245 14590 708fa884506d1c1e320ca9a06044b9ec ""
-  "Fig02_A.pdf" 1679786212 8934 e71fc6ce96b984194c962febc77f1d4d ""
-  "Fig02_B.pdf" 1679786240 9863 714d0e6bfe2eb97c2618f30a843924e2 ""
-  "Fig02_C.pdf" 1679786232 14509 cb3e8246e88531266d879f94be1d483b ""
-  "Fig02_D.pdf" 1679786251 17330 6667afa5910107933a25b863a84b5165 ""
+  "Fig01_A.pdf" 1679881042 14173 dd45c1a28a646abf768538a08a891c32 ""
+  "Fig01_B.pdf" 1679881089 14590 7e49a20b94be31678e6154f25d9350ac ""
+  "Fig02_A.pdf" 1679881018 9130 c18686ddff39add7e0e254ca2fea873c ""
+  "Fig02_B.pdf" 1679881079 9863 9d2042316d9e5073fe3785dca88d6e8f ""
+  "Fig02_C.pdf" 1679881058 14573 0d97fd1d02912ce118070f28e274ded2 ""
+  "Fig02_D.pdf" 1679881093 17330 dfd7ce37c98aaca8e04b78d2ceee4491 ""
   "Model.pdf" 1670859085 38092 6315ba48e9ebdad3ff01da082e19fe32 ""
-  "PVLoops_A.pdf" 1679786207 51189 f17bed1ff18a405b106d0e45e2d1b03f ""
-  "PVLoops_B.pdf" 1679786210 56891 6c22eab8b50aef8a3e608c1d5b9d8d41 ""
-  "manuscript.aux" 1679786475 7405 03fc360e4a1c4bf8100a24acc6bec142 "lualatex"
+  "PVLoops_A.pdf" 1679880522 51189 97da707d5757b7878375d98df86163db ""
+  "PVLoops_B.pdf" 1679880527 56891 c48ca6c4983bc78bae803cdb19a72607 ""
+  "manuscript.aux" 1679881108 7405 03fc360e4a1c4bf8100a24acc6bec142 "lualatex"
   "manuscript.bbl" 1679786474 28085 9e973b940d979945638387275ddc4c1e "bibtex manuscript"
   "manuscript.tex" 1679786473 25821 42a6882e25640f58528a54f35081d9e4 ""
   (generated)
