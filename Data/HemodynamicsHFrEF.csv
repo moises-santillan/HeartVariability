@@ -1,5 +1,4 @@
-﻿,bpm,mmHg,mmHg,mmHg,mmHg,mmHg/sec,mmHg/sec,uL,uL,uL,uL,uL,ul/min,%
-ANGII, HR  , ESP , EDP ,Pmax ,Pmin ,dPmax,dPmin,Vmax ,Vmin , ESV , EDV , SV  , CO  , EF  
+﻿HFrEF, HR (bpm), ESP (mmHg), EDP (mmHg),Pmax (mmHg),Pmin (mmHg),dPmax (mmHg/s),dPmin (mmHg/min),Vmax (μl),Vmin (μl), ESV (μl), EDV (μl), SV (μl), CO (μl/min), EF (%) 
 1,516,77.642,5.443,92.861,1.72,6578.615,-5546.512,39.36,20.238,21.405,38.403,16.997,8778.227,44.234
 2,476,111.408,10.696,115.052,5.708,8849.739,-9724.445,41.927,15.891,21.151,34.209,13.058,6217.428,37.996
 3,477,73.167,5.815,81.298,4.156,4391.766,-4667.396,22.083,10.339,10.993,21.785,10.791,5143.779,49.396
