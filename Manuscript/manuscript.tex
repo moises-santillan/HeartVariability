@@ -118,7 +118,7 @@ All animal experiments were reviewed and approved by the Institutional Animal Ca
 
 \subsection{Left-ventricle hemodynamics assessment}
 
-At 28 days post-implantation of the pump, left-ventricle hemodynamics were evaluated in vivo using pressure-volume (PV) analysis with an open-heart configuration and the ADV500 PV measurement system (Transonic Scisense, NY, USA). A 1.2 Fr PV catheter was utilized for this purpose, following the methodology described in a prior publication \citep{Pacher_2008}.
+At 28 days post-implantation of the pump, left-ventricle hemodynamics were evaluated in vivo using pressure-volume (PV) analysis with an open-heart configuration and the ADV500 PV measurement system (Transonic Scisense, NY, USA). A 1.2 Fr PV catheter was utilized for this purpose, following the methodology described in a prior publication \citep{Pacher_2008}. For each mouse examined, we assessed the following hemodynamic parameters: heart rate (HR), end systolic pressure (ESP), end diastolic pressure (EDP), peak pressure (Pmax), minimum pressure (Pmin), maximal rate of pressure rise (dP/dtmax), minimum rate of pressure decrease (dP/dtmin), maximum volume (Vmax), minimum volume (Vmin), end systolic volume (ESV), end diastolic volume (EDV), stroke volume (SV), cardiac output (CO), and ejection fraction (EF). The average values pertaining to the aforementioned parameters can be accessed in the repository located at \url{https://github.com/moises-santillan/HeartVariability}. These values are presented in tables named \texttt{HemodynamicsControl.csv}, \texttt{HemodynamicsHFrEF.csv}, and \texttt{HemodynamicsSummary.csv}.
 
 \subsection{Fibrosis and cellular hypertrophy assessment}
 
@@ -141,13 +141,13 @@ An algorithm was developed in \texttt{Python} to estimate the Poincaré-plot ind
 
 \subsection{Statistical analysis}
 
-We conducted statistical analyses to detect significant differences between groups using Student's t-tests. To perform such analyses, we utilized the \texttt{ttest\_ind} function from the \texttt{scipy.stats} library in \texttt{Python}. Results with p-values less than 0.05 (type I error) were considered statistically significant.
+To determine significant differences between groups, we employed statistical analyses such as Student's t-tests and the Mann-Whitney U test, depending on the normality of the data. We utilized the \texttt{ttest\_ind} or the \texttt{mannwhitneyu} function available in the \texttt{scipy.stats} library in \texttt{Python} for this purpose. We regarded results with p-values less than 0.05 as statistically significant.
 
 \section{\label{sec:res}Results}
 
 \subsection{\label{sec:conclu}Experimental results and heart variability analysis}
 
-We conducted the experiments on the control and HFrEF groups according to the procedures outlined in Section Materials and Methods. From the recorded ventricle pressure and volume data we reconstructed for each experimental record the so-called P-V diagrams illustrated in Fig. \ref{fig:PVLoops}. Thereafter, we were able to extract time series of physiological interest from these diagrams, such as those of successive cardiac-cycle periods and stroke volumes.
+We conducted the experiments on the control and HFrEF groups according to the procedures outlined in section Materials and Methods. From the recorded ventricle pressure and volume data we reconstructed for each experimental record the so-called P-V diagrams illustrated in Fig. \ref{fig:PVLoops}. Thereafter, we were able to extract time series of physiological interest from these diagrams, such as those of successive cardiac-cycle periods and stroke volumes.
 
 \begin{figure}[h!]
     \begin{tabular}{cc}
@@ -159,7 +159,7 @@ We conducted the experiments on the control and HFrEF groups according to the pr
     \label{fig:PVLoops}
 \end{figure}
 
-The mean cycle duration was calculated for each experimental record by taking the time series of consecutive cardiac-cycle periods and averaging all of the values obtained in each group. Figure \ref{fig:fig01}A shows the results obtained. No significant difference was observed between the control group and the group of mice with induced cardiac failure, which contradicts the findings of \citet{Kamen_1995}, who found increased heart rates in patients with chronic heart failure. However, it is important to note that heart rate is controlled by the sympathetic and parasympathetic nervous systems. During the experiments, mice were anesthetized, which affects the autonomous nervous system. This may help explain the outcomes. Indeed, as noted by \citep{Nishiyama_2016, Kato_1992}, the employed anesthesia is known to affect heart rate.
+We computed the mean cycle duration for every experimental recording by averaging the values obtained from the time series of consecutive cardiac-cycle periods for each group. Figure \ref{fig:fig01}A illustrates the outcomes, which align with the heart rate values reported in the repository accessible at \url{https://github.com/moises-santillan/HeartVariability}. No significant difference was observed between the mean cycle duration of the control group and that of the group of mice with induced cardiac failure, which contradicts the findings of \citet{Kamen_1995}, who found increased heart rates in patients with chronic heart failure. However, it is important to note that heart rate is controlled by the sympathetic and parasympathetic nervous systems. During the experiments, mice were anesthetized, which affects the autonomous nervous system. This may help explain the outcomes. Indeed, as noted by \citep{Nishiyama_2016, Kato_1992}, the employed anesthesia is known to affect heart rate.
 
 \begin{figure}[h!]
     \begin{tabular}{cc}
@@ -171,11 +171,11 @@ The mean cycle duration was calculated for each experimental record by taking th
     \label{fig:fig01}
 \end{figure}
 
-We also calculated the mean values for the time series of consecutive stroke volumes for every experimental record. Then we averaged the results from each group and plotted the results in Fig. \ref{fig:fig01}B. As expected, there is a significant reduction in stroke volume in the group with induced heart failure when compared to the control group.
+We also calculated the mean values for the time series of consecutive stroke volumes for every experimental record. Then, we averaged the results from each group and plotted the results in Fig. \ref{fig:fig01}B. As expected, there is a significant reduction in stroke volume in the group with induced heart failure when compared to the control group.
 
-We were interested in studying the variability of heart-cycle periods and stroke volumes. Therefore, we measured the above described Poincaré-plot indices of heart-cycle period variability for every experimental record, and averaged the results corresponding to the control and HFrEF groups. The outcomes are plotted in Fig. \ref{fig:fig02}A. Observe that no statistically significant difference exists between the indices corresponding to the control and HFrEF groups. This suggests that, under our experimental conditions, heart failure does not affect heart rate variability (HRV). 
+We were interested in studying the variability of heart-cycle periods and stroke volumes. Therefore, we measured the above described Poincaré-plot indices of heart-cycle period variability for every experimental record, and averaged the results corresponding to the control and HFrEF groups. The outcomes are plotted in Fig. \ref{fig:fig02}C. Observe that no statistically significant difference exists between the indices corresponding to the control and HFrEF groups. This suggests that, under our experimental conditions, heart failure does not affect heart rate variability (HRV). 
 
-The same methodology was used to investigate the variability of stroke volumes. The results are shown in Fig. \ref{fig:fig02}B. The HFrEF group's SD1 and SD2 values are significantly lower than those of the control group. This, together with the absence of changes in HRV suggests that both types of variability are dissociated. Understanding why this happens is an intriguing question in itself. 
+The same methodology was used to investigate the variability of stroke volumes. The results are shown in Fig. \ref{fig:fig02}D. The HFrEF group's SD1 and SD2 values are significantly lower than those of the control group. This, together with the absence of changes in HRV suggests that both types of variability are dissociated. Understanding why this happens is an intriguing question in itself. 
 
 \begin{figure}[h!]
     \begin{tabular}{cc}
@@ -191,7 +191,7 @@ The same methodology was used to investigate the variability of stroke volumes. 
 \end{figure}
 
 
-We found that, in our experimental protocol, there is no difference in the heart rate of mice with induced heart failure compared to those in the control group. The same is true for heart rate variability (HRV). This last finding contradicts \citet{Kamen_1995} and other authors, who have reported that HRV decreases in patients with heart failure. We suggest that such discrepancy is related to the fact that mice are anesthetized in our experimental protocol. On the other hand, we found that, as expected, stroke volume decreases in mice with heart failure, as does stroke volume variability. 
+In summary, we found that, in our experimental protocol, there is no difference in the heart rate of mice with induced heart failure compared to those in the control group. The same is true for heart rate variability (HRV). This last finding contradicts \citet{Kamen_1995} and other authors, who have reported that HRV decreases in patients with heart failure. We suggest that such discrepancy is related to the fact that mice are anesthetized in our experimental protocol. On the other hand, we found that, as expected, stroke volume decreases in mice with heart failure, as does stroke volume variability. 
 
 As we mentioned before, HRV is a non-invasive tool that can provide valuable insights into the physiological state of an individual, including their stress levels, cardiovascular health, and risk of diseases such as diabetes and hypertension. Reduced HRV has been shown to be a strong predictor of cardiovascular events and mortality \citep{Zeki_Al_Hazzouri_2014}. We find it intriguing that the variability of stroke volume, which is also critical to heart function, is reduced in a pathology such as heart failure. What is more, our findings indicate that this decreased variability is caused by mechanisms other than those involved in HRV control. 
 
